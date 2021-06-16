@@ -20,7 +20,7 @@
 .bodyContainer {
   background: center center fixed;
   background-size: cover;
-  background-image: url("/img/bg2.png");
+  background-image: url("./img/bg2.png");
 }
 
 .containerTitulo {
