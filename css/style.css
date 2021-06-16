@@ -17,6 +17,14 @@
   background-color: var(--color-primary);
 }
 
+.body nav {
+  background-color: #050225;
+}
+
+.body nav img {
+  height: 30px;
+}
+
 .bodyContainer {
   background: center center fixed;
   background-size: cover;
