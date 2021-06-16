@@ -17,6 +17,12 @@
   background-color: var(--color-primary);
 }
 
+.bodyContainer {
+  background: center center fixed;
+  background-size: cover;
+  background-image: url("/img/bg2.png");
+}
+
 .containerTitulo {
   margin-top: 50px;
 }
@@ -528,15 +534,15 @@
   .continerCompromiso form {
     padding: 0px 50px;
   }
-  .continerCompromiso form p,span {
+  .continerCompromiso form p, span {
     text-align: center;
   }
   .continerCompromiso .compromisoTitulo {
     padding-left: 20px;
   }
   .continerCompromiso form .containerContinuar {
-    justify-content:center;
-    margin-bottom:35px;
+    justify-content: center;
+    margin-bottom: 35px;
   }
 }
 
@@ -603,13 +609,13 @@
     border-radius: 5px;
   }
   .continerCompromiso .compromisoTitulo {
-    display:block;
+    display: block;
   }
-  .continerCompromiso .compromisoTitulo img{
-    margin:auto;
+  .continerCompromiso .compromisoTitulo img {
+    margin: auto;
     text-align: center;
   }
-  .continerCompromiso .compromisoTitulo  .compromisoTituloText {
+  .continerCompromiso .compromisoTitulo .compromisoTituloText {
     text-align: center;
   }
 }
