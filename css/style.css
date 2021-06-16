@@ -157,10 +157,26 @@
 /*----------------------------------- Registro -----------------------------------*/
 
 .continerRegistro .pasos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-primaryDark);
   color: var(--color-secundary);
-  padding: 15px 0px;
+  padding: 15px 10px;
   font-size: 20px;
+}
+
+.continerRegistro .pasos .noColor {
+  color: #b9b9b9;
+}
+
+.continerRegistro .pasos p {
+  font-size: 15px;
+}
+
+.continerRegistro .pasos hr {
+  margin: 0px 30px;
+  width: 500px;
 }
 
 .continerRegistro .registroTitulo {
@@ -328,10 +344,23 @@
 /*----------------------------------- compromiso -----------------------------------*/
 
 .continerCompromiso .pasos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-primaryDark);
   color: var(--color-secundary);
-  padding: 15px 0px;
+  padding: 15px 10px;
   font-size: 20px;
+}
+
+.continerCompromiso .pasos p {
+  font-size: 15px;
+}
+
+.continerCompromiso .pasos hr {
+  border: 1px solid #DF284A;
+  margin: 0px 30px;
+  width: 500px;
 }
 
 .continerCompromiso .compromisoTitulo {
@@ -449,6 +478,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 0px 20px;
+  margin-bottom: 20px;
 }
 
 /* ..continerCompromiso form .containerContinuar .botonContinuar{
