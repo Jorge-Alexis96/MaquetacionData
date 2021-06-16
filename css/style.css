@@ -1,0 +1,615 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --color-primary: #001c59;
+  --color-secundary: #DF284A;
+  --white: #e7e7e7;
+  --color-primaryDark: #001749;
+  --light-blue: #33b1ff;
+}
+
+.body {
+  background-color: var(--color-primary);
+}
+
+.containerTitulo {
+  margin-top: 50px;
+}
+
+.containerTitulo .titulo {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.containerTitulo .titulo .logoC {
+  width: 70px;
+}
+
+.containerTitulo .titulo p {
+  padding-top: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.containerTitulo .subTitulo {
+  margin: 10px 0px;
+  padding-left: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.containerTitulo .subTitulo ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.containerTitulo .subTitulo ul li i {
+  color: #f6fa00;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.containerTitulo .subTitulo .opinion {
+  color: var(--light-blue);
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.containerTitulo .subTitulo button {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--light-blue);
+  border-radius: 5px;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.containerTitulo .subTitulo button i {
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+.containerTitulo .contenidoTexto {
+  margin: 10px 0px;
+  padding-left: 110px;
+}
+
+.containerTitulo .contenidoTexto p {
+  max-width: 650px;
+  font-size: 18px;
+  color: var(--white)
+}
+
+.containerTitulo .registroIntro {
+  margin: 10px 0px;
+  padding-left: 110px;
+}
+
+.containerTitulo .registroIntro form label {
+  color: #bebebe;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.containerTitulo .registroIntro form {
+  margin-bottom: 30px;
+}
+
+.containerTitulo .registroIntro form .introCorreo {
+  width: 315px;
+  border: none;
+  background-color: #000b24;
+  padding: 10px 18px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 15px;
+}
+
+.containerTitulo .registroIntro form .introCorreo:focus {
+  outline: none;
+}
+
+/* .containerTitulo .registroIntro form .botonInicio{
+  background-color: var(--color-secundary);
+  border: none;
+  padding:10px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+} */
+
+.containerTitulo .registroIntro form a {
+  text-decoration: none;
+  background-color: var(--color-secundary);
+  border: none;
+  padding: 10px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+}
+
+.containerTitulo .registroIntro span {
+  color: var(--white);
+  font-weight: 300;
+}
+
+.containerTitulo .registroIntro span b {
+  color: var(--color-secundary)
+}
+
+/*----------------------------------- Registro -----------------------------------*/
+
+.continerRegistro .pasos {
+  background-color: var(--color-primaryDark);
+  color: var(--color-secundary);
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.continerRegistro .registroTitulo {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.continerRegistro .registroTitulo img {
+  margin-right: 30px;
+}
+
+.continerRegistro .registroTitulo .registroTituloText {
+  padding-top: 10px;
+  color: var(--white);
+  text-align: left;
+}
+
+.continerRegistro hr {
+  border: 1px solid var(--white);
+  width: 50%;
+  display: block;
+}
+
+.continerRegistro form {
+  text-align: left;
+  padding: 20px 120px;
+}
+
+.continerRegistro form p {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.continerRegistro form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b9b9b9;
+}
+
+.continerRegistro form .inputDatos {
+  background-color: #000b24;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  width: 40%;
+  margin-right: 20px;
+  color: var(--white);
+}
+
+.continerRegistro form .inputDatos:focus {
+  border: none;
+  outline: none;
+}
+
+.continerRegistro form .registroTextTitle {
+  margin-top: 18px;
+}
+
+.continerRegistro form .inputCorreo {
+  background-color: #000b24;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  width: 80%;
+  margin-right: 20px;
+  color: var(--white);
+}
+
+.continerRegistro form .inputCorreo:focus {
+  border: none;
+  outline: none;
+}
+
+.continerRegistro form .containerInputRadio {
+  display: flex;
+}
+
+.continerRegistro form .containerInputRadio .inputsRadio {
+  width: 100px;
+  margin-right: 20px;
+  display: flex;
+  padding: 3px;
+  border: 1px solid #000b24;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.continerRegistro form .containerInputRadio .inputsRadio input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.continerRegistro form .containerInputRadio .inputsRadio label {
+  margin-top: 10px;
+}
+
+.continerRegistro form .inputSelec {
+  background-color: #000b24;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  width: 10%;
+  color: var(--white);
+}
+
+.continerRegistro form .inputNum {
+  background-color: #000b24;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  width: 40%;
+  color: var(--white);
+}
+
+.continerRegistro form .inputSelec, .inputNum {
+  border: none;
+  outline: none;
+}
+
+.continerRegistro form hr {
+  margin: 25px 0px;
+  width: 100%;
+}
+
+.continerRegistro form .containerContinuar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.continerRegistro form .containerContinuar span {
+  color: var(--white);
+  font-weight: 300;
+}
+
+.continerRegistro form .containerContinuar span b {
+  color: var(--color-secundary)
+}
+
+/* .continerRegistro form .containerContinuar .botonContinuar{
+  background-color: var(--color-secundary);
+  border: none;
+  padding:10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+} */
+
+.continerRegistro form .containerContinuar a {
+  text-decoration: none;
+  background-color: var(--color-secundary);
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+}
+
+/*----------------------------------- compromiso -----------------------------------*/
+
+.continerCompromiso .pasos {
+  background-color: var(--color-primaryDark);
+  color: var(--color-secundary);
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.continerCompromiso .compromisoTitulo {
+  margin: 30px 0px;
+  display: flex;
+  padding-left: 100px;
+}
+
+.continerCompromiso .compromisoTitulo img {
+  margin-right: 30px;
+}
+
+.continerCompromiso .compromisoTitulo .compromisoTituloText {
+  padding-top: 10px;
+  color: var(--white);
+  text-align: left;
+}
+
+.continerCompromiso hr {
+  border: 1px solid var(--white);
+  width: 50%;
+  display: block;
+}
+
+.continerCompromiso form {
+  text-align: left;
+  padding: 10px 120px;
+}
+
+.continerCompromiso form p {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.continerCompromiso form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b9b9b9;
+}
+
+.continerCompromiso form .compromisoTextTitle {
+  margin-top: 18px;
+}
+
+.continerCompromiso form .containerInputRadio {
+  display: flex;
+}
+
+.continerCompromiso form .containerInputRadio .inputsRadio {
+  width: 200px;
+  margin-right: 20px;
+  display: flex;
+  padding: 3px;
+  border: 1px solid #000b24;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.continerCompromiso form .containerInputRadio .inputsRadio input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.continerCompromiso form .containerInputRadio .inputsRadio label {
+  margin-top: 10px;
+}
+
+.continerCompromiso form ul li {
+  list-style: none;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.continerCompromiso form ul li i {
+  color: var(--color-secundary);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.continerCompromiso form .spanInfo {
+  color: #b9b9b9;
+  font-size: 15px;
+  display: block;
+}
+
+.continerCompromiso form .compromisoInputSelect {
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+
+.continerCompromiso form .compromisoInputSelect .inputSelect {
+  display: flex;
+  border: 2px solid var(--light-blue);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  align-items: center;
+}
+
+.continerCompromiso form .compromisoInputSelect .inputSelect label {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: var(--white)
+}
+
+.continerCompromiso form hr {
+  margin: 25px 0px;
+  width: 100%;
+}
+
+.continerCompromiso form .containerContinuar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+}
+
+/* ..continerCompromiso form .containerContinuar .botonContinuar{
+  background-color: var(--color-secundary);
+  border: none;
+  padding:10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+} */
+
+.continerCompromiso form .containerContinuar a {
+  text-decoration: none;
+  background-color: var(--color-secundary);
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: var(--white);
+}
+
+@media screen and (max-width:767px) {
+  .containerTitulo .registroIntro form {
+    text-align: center;
+    justify-content: center;
+  }
+  .containerTitulo .registroIntro form .introCorreo {
+    display: block;
+    width: 100%;
+  }
+  .containerTitulo .registroIntro form a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .containerTitulo .titulo {
+    display: block;
+    text-align: center;
+  }
+  .containerTitulo .titulo p {
+    margin-left: 0px;
+  }
+  .containerTitulo .subTitulo {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .containerTitulo .contenidoTexto {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .containerTitulo .registroIntro {
+    padding-left: 0px;
+    text-align: center;
+    justify-content: center
+  }
+  .containerTitulo .registroIntro span {
+    font-size: 15px;
+  }
+  .continerRegistro .registroTitulo img {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .continerRegistro hr {
+    width: 80%;
+  }
+  .continerRegistro form {
+    padding: 0px 50px;
+  }
+  .continerRegistro form .inputSelec {
+    width: 100px;
+  }
+  .continerCompromiso hr {
+    width: 80%;
+  }
+  .continerCompromiso form {
+    padding: 0px 50px;
+  }
+  .continerCompromiso form p,span {
+    text-align: center;
+  }
+  .continerCompromiso .compromisoTitulo {
+    padding-left: 20px;
+  }
+  .continerCompromiso form .containerContinuar {
+    justify-content:center;
+    margin-bottom:35px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .containerTitulo .contenidoTexto {
+    padding: 0px 50px;
+  }
+  .containerTitulo .registroIntro {
+    padding: 0px 50px;
+  }
+  .continerRegistro .registroTitulo {
+    text-align: center;
+    display: block;
+  }
+  .continerRegistro .registroTitulo img {
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .continerRegistro .registroTitulo .registroTituloText {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .continerRegistro form {
+    text-align: center;
+  }
+  .continerRegistro form .inputDatos {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+  }
+  .continerRegistro form .inputCorreo {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+  }
+  .continerRegistro form .containerInputRadio {
+    justify-content: center;
+  }
+  .continerRegistro form .inputNum {
+    width: 50%;
+  }
+  .continerRegistro form .containerContinuar {
+    display: block;
+  }
+  .continerRegistro form .containerContinuar div {
+    margin-bottom: 30px;
+  }
+  .continerCompromiso form .containerInputRadio {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .continerCompromiso form .containerInputRadio .inputsRadio {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 3px;
+    border: 1px solid #000b24;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .continerCompromiso .compromisoTitulo {
+    display:block;
+  }
+  .continerCompromiso .compromisoTitulo img{
+    margin:auto;
+    text-align: center;
+  }
+  .continerCompromiso .compromisoTitulo  .compromisoTituloText {
+    text-align: center;
+  }
+}
